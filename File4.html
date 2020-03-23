@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>
+            File__4
+        </title>
+    </head>
+    <body>
+        <h2 id="demo"></h2> 
+        <script>
+            var text,i,carl;
+            var car=[
+                "Honda",
+                "BMW",
+                "Audi",
+                "NISSAN"
+            ];
+            car.push("Aaa");
+            carl=car.length;
+            text = "<ul>";
+            for(i=0;i<carl;i++){
+                text += "<li>"+car[i]+"</li>";
+            }     
+            text +="</ul>";
+            document.getElementById("demo").innerHTML=text;
+        </script>
+    </body>
+</html>
